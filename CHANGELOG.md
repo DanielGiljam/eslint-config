@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Initial version.
 
-[1.0.0]: https://github.com/DanielGiljam/nextjs-global-app-state/releases/tag/v1.0.0
+[1.0.0]: https://github.com/DanielGiljam/eslint-config-danielgiljam/releases/tag/v1.0.0
