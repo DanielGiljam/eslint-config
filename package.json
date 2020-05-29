@@ -1,14 +1,14 @@
 {
   "name": "@danielgiljam/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The ESLint config I use.",
-  "homepage": "https://github.com/DanielGiljam/eslint-config-danielgiljam#readme",
-  "bugs": "https://github.com/DanielGiljam/eslint-config-danielgiljam/issues",
+  "homepage": "https://github.com/DanielGiljam/eslint-config#readme",
+  "bugs": "https://github.com/DanielGiljam/eslint-config/issues",
   "license": "MIT",
   "author": "Daniel Giljam (https://github.com/DanielGiljam)",
   "files": [],
   "main": "index.js",
-  "repository": "github:DanielGiljam/eslint-config-danielgiljam",
+  "repository": "github:DanielGiljam/eslint-config",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier-eslint --write \"${PWD}/**/*.{js,jsx,ts,tsx,css,sass,scss,json}\""

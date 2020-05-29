@@ -4,4 +4,4 @@ The ESLint config I use.
 
 ## Version History
 
-View [changelog](https://github.com/DanielGiljam/eslint-config-danielgiljam/blob/master/CHANGELOG.md).
+View [changelog](https://github.com/DanielGiljam/eslint-config/blob/master/CHANGELOG.md).
