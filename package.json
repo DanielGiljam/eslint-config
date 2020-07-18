@@ -1,6 +1,6 @@
 {
   "name": "@danielgiljam/eslint-config",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "The ESLint config I use.",
   "homepage": "https://github.com/DanielGiljam/eslint-config#readme",
   "bugs": "https://github.com/DanielGiljam/eslint-config/issues",
@@ -11,31 +11,38 @@
   "repository": "github:DanielGiljam/eslint-config",
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier-eslint --write \"${PWD}/**/*.{js,jsx,ts,tsx,css,sass,scss,json}\""
+    "fix": "eslint --fix .",
+    "format": "prettier --write .",
+    "ff": "npm run fix && npm run format"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
-    "@typescript-eslint/parser": "^2.31.0",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
+    "@danielgiljam/prettierrc": "^2.0.0",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard-jsx": "^8.1.0",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^2.0.5",
-    "prettier-eslint": "^9.0.1",
-    "prettier-eslint-cli": "^5.0.0"
+    "typescript": "^3.9.6"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.31.0",
-    "@typescript-eslint/parser": "^2.31.0",
-    "eslint": "^6.0.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard-jsx": "^8.1.0",
+    "eslint-config-standard-with-typescript": "^18.0.2",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "^3.9.6"
   }
 }

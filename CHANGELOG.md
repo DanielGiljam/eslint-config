@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2020-07-18
+
+### Changed
+
+- Redesigned config to be compatible with ESLint v7.0.0 and make use of its new features.
+- Improved README.
+- Changed rule sets to make the config more general (less React specific) so that it can be used in more projects.
+- Adapts to the deprecation of `prettier-eslint` and removes it as a peer dependency.
+- Instead, the config extends `eslint-config-prettier` to allow for integration with Prettier.
+
 ## [1.0.1] - 2020-05-28
 
 ### Changed
@@ -19,3 +29,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 [1.0.0]: https://github.com/DanielGiljam/eslint-config/releases/tag/v1.0.0
 [1.0.1]: https://github.com/DanielGiljam/eslint-config/releases/tag/v1.0.1
+[2.0.0]: https://github.com/DanielGiljam/eslint-config/releases/tag/v2.0.0
