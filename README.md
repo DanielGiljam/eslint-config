@@ -38,10 +38,8 @@ You can implement these tools into your development workflow however you like. H
      "scripts": {
        "fix": "eslint --fix .",
        "format": "prettier --write .",
-       "ff": "npm run fix && npm run format",
-       ...
-     },
-     ...
+       "ff": "npm run fix && npm run format"
+     }
    }
    ```
 2. Typing `npm run ff` in your terminal then applies [@danielgiljam/eslint-config] and [@danielgiljam/prettierrc] to your source code.
@@ -60,8 +58,7 @@ You can implement these tools into your development workflow however you like. H
      "editor.codeActionsOnSave": [
        "source.fixAll.eslint",
        "source.fixAll.format"
-     ],
-     ...
+     ]
    }
    ```
 3. Now when you save a file, it will first be fixed and then formatted in place.

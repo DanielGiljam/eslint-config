@@ -1,6 +1,6 @@
 {
   "name": "@danielgiljam/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The ESLint config I use.",
   "homepage": "https://github.com/DanielGiljam/eslint-config#readme",
   "bugs": "https://github.com/DanielGiljam/eslint-config/issues",
