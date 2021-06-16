@@ -1,6 +1,6 @@
 {
   "name": "@danielgiljam/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The ESLint config I use.",
   "homepage": "https://github.com/DanielGiljam/eslint-config#readme",
   "bugs": "https://github.com/DanielGiljam/eslint-config/issues",
@@ -16,7 +16,7 @@
     "ff": "npm run fix && npm run format"
   },
   "devDependencies": {
-    "@danielgiljam/prettierrc": "^2.0.1",
+    "@danielgiljam/prettierrc": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^4.27.0",
     "@typescript-eslint/parser": "^4.27.0",
     "eslint": "^7.28.0",
