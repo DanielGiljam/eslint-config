@@ -13,6 +13,8 @@ module.exports = {
         alphabetize: {order: "asc"},
       },
     ],
+    "no-unused-vars": [2, {args: "all", argsIgnorePattern: "^_"}],
+    quotes: [1, "double", {avoidEscape: true, allowTemplateLiterals: false}],
     "sort-imports": [
       1,
       {
@@ -24,11 +26,19 @@ module.exports = {
   overrides: [
     {
       files: ["*.ts", "*.tsx"],
-      extends: "prettier/@typescript-eslint",
+      rules: {
+        "@typescript-eslint/no-namespace": 0,
+        "@typescript-eslint/no-non-null-assertion": 0,
+        "@typescript-eslint/no-unused-vars": [
+          2,
+          {args: "all", argsIgnorePattern: "^_"},
+        ],
+        "no-unused-vars": 0,
+      },
     },
     {
       files: ["*.jsx", "*.tsx"],
-      extends: ["standard-jsx", "prettier/react"],
+      extends: ["standard-jsx", "prettier"],
       rules: {
         "react/jsx-curly-brace-presence": [
           1,
@@ -43,6 +53,7 @@ module.exports = {
             reservedFirst: true,
           },
         ],
+        "react/react-in-jsx-scope": 1,
       },
     },
   ],
