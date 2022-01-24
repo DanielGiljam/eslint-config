@@ -7,7 +7,7 @@ The [ESLint] config I use.
 Install [@danielgiljam/eslint-config] and its peer dependencies.
 
 ```bash
-npm i @danielgiljam/eslint-config @typescript-eslint/eslint-plugin@^4.27.0 @typescript-eslint/parser@^4.27.0 eslint@^7.28.0 eslint-config-prettier@^8.3.0 eslint-config-standard-jsx@^10.0.0 eslint-config-standard-with-typescript@^20.0.0 eslint-plugin-import@^2.23.4 eslint-plugin-node@^11.1.0 eslint-plugin-promise@^5.1.0 eslint-plugin-react@^7.24.0 typescript@^4.3.2
+npm i @danielgiljam/eslint-config @typescript-eslint/eslint-plugin@^4.0.1 @typescript-eslint/parser@^4.0.0 eslint@^7.12.1 eslint-config-prettier@^8.3.0 eslint-config-standard-jsx@^10.0.0 eslint-config-standard-with-typescript@^21.0.1 eslint-plugin-import@^2.25.4 eslint-plugin-node@^11.1.0 eslint-plugin-promise@^5.0.0 eslint-plugin-react@^7.28.0 typescript@^4.5.5
 ```
 
 Create a file called `.eslintrc.js`.
